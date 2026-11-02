@@ -1,0 +1,34 @@
+{
+  "name": "smart-parking-system",
+  "version": "2.0.0",
+  "description": "Smart Parking Management System Using Queue Data Structure (FIFO) - GitHub + Vercel + Supabase Full-Stack Architecture",
+  "main": "api/index.js",
+  "scripts": {
+    "start": "node api/index.js",
+    "dev": "nodemon api/index.js"
+  },
+  "keywords": [
+    "smart-parking",
+    "queue-data-structure",
+    "fifo",
+    "supabase",
+    "postgresql",
+    "vercel",
+    "express",
+    "nodejs"
+  ],
+  "author": "Engineering Student",
+  "license": "MIT",
+  "dependencies": {
+    "@supabase/supabase-js": "^2.49.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
